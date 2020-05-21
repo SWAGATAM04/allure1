@@ -1,7 +1,5 @@
 pipeline {
-agent {
-label 'Ubuntu_14'
-}
+agent any
 stages {
 stage('test') {
 steps {
